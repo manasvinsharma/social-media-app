@@ -10,8 +10,8 @@
         "dev": "concurrently \"npm run server\" \"npm run client\"",
         "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
     },
-    "author": "Soumya Dey",
-    "license": "MIT",
+    "author": "Manasvin",
+    "license": "",
     "dependencies": {
         "axios": "^0.19.2",
         "bcryptjs": "^2.4.3",
